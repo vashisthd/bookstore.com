@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+}
+#searchbar{
+    width: 400px;
+    height: 30px;
+    border: 1.5px solid red;
+    margin-right: 0px;
+}
+#searchlogo{
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    width: 25px;
+    margin-left: 0px;
+    margin-right: 500px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+.loginbox #bookloginimg{
+    position: relative;
+    top: 0px;
+    width: 510px;
+}
+.loginbox h1{
+    position: relative;
+    top: 0px;
+}
+.loginbox{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    background: rgb(34,40,195);
+    background: linear-gradient(0deg, rgba(34,40,195,0.04254201680672265) 5%, rgba(45,63,253,0.034138655462184864) 100%);
+    top: 10vh;
+    position: relative;
+    
+    /* top: 40%; */
+    /* left: 50%; */
+}
+
+#emailused{
+    width: 200px;
+
+}
+.loginbox h1{
+    font-size: 50px;
+}
+.loginbox #submit{
+    margin: 20px 0px 20px 0px;
+}
+.loginbox #forgotpwd{
+    margin: 0px 300px 0px 0px;
+}
+.foot{
+    font-family: cursive;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(81,152,204,1) 100%);
+    display: flex;
+    justify-content: center;
+}

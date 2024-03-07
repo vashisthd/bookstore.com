@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+}
+#searchbar{
+    width: 400px;
+    height: 30px;
+    border: 1.5px solid red;
+    margin-right: 0px;
+}
+#searchlogo{
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    width: 25px;
+    margin-left: 0px;
+    margin-right: 500px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#account{
+    color: black;
+}
+
+.bookhome  #title{
+    margin-left: 30px;
+    font-size: 45px;
+    }
+    .bookhome p{
+        font-size: 50px;
+    }
+    .bookhome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+
+    .bookhome h1{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items:center;
+        height: 100px;
+        width: 100vw;
+        background: rgb(88,34,195);
+        background: radial-gradient(circle, rgba(88,34,195,1) 5%, rgba(253,177,45,1) 100%);
+    }
+    .bookhome #bookimg{
+    height: 220px;
+    
+    }
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.cartbox{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 400px;
+    width: 70vw;
+    border: 2px solid black;
+    border-radius: 9px;
+    text-align: center;
+}
+#carttext{
+    margin-left: 250px;
+}
+.foot{
+    font-family: cursive;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(81,152,204,1) 100%);
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#account{
+    color: black;
+}
+
+.bookhome  #title{
+    margin-left: 30px;
+    font-size: 45px;
+    }
+    .bookhome p{
+        font-size: 50px;
+    }
+    .bookhome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+
+    .bookhome h1{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items:center;
+        height: 100px;
+        width: 100vw;
+        background: rgb(88,34,195);
+        background: radial-gradient(circle, rgba(88,34,195,1) 5%, rgba(253,177,45,1) 100%);
+    }
+    .bookhome #bookimg{
+    height: 220px;
+    
+    }
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#searchbar{
+    width: 400px;
+    height: 30px;
+    border: 1.5px solid red;
+    margin-right: 0px;
+}
+#searchlogo{
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    width: 25px;
+    margin-left: 0px;
+    margin-right: 500px;
+}
+.color{
+    background-color: aqua;
+}
+.menu button{
+    font-size: 15px;
+    font-weight: 550;
+    margin: 10px;
+    background-color: rgb(253, 247, 247);
+    border: 0px ;
+    top: 0px;
+    height: 50px;
+    width: 90px;
+    text-emphasis: none;
+    text-decoration: none;
+    /* width: 70px; */
+}
+.New-arrivals{
+    /* height: 500px; */
+    display: flex;
+    margin-bottom: 50px;
+}
+#newarrival{
+    height: 500px;
+    border-radius: 9px;
+}
+#bestsellerimg{
+    border-radius: 9px;
+    height: 500px;
+}
+.new-books{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.books-types{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.books-types img{
+    height: 240px;
+}
+.new-books #book1{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Bestseller{
+    display: flex;
+
+}
+.Bestseller img{
+    height: 500px;
+}
+.best-books{
+    display: flex;
+    flex-wrap: wrap;
+}
+.best-books img{
+    height: 240px;
+    margin: 20px;
+    margin-top: 5px;
+}
+#book1{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.foot{
+    font-family: cursive;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(81,152,204,1) 100%);
+    display: flex;
+    justify-content: center;
+}

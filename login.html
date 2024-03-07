@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-BOOK STORE ||</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script src="login.js"></script>
+    <header>
+        <div class="head">
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html"><img src="logo.jpeg" alt="" width="200px"></a>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td><input id="searchbar" type="text" placeholder="  Title , Author , Publisher or ISBN" width="500px"></td>
+                                <td id="searchlogo"><i class="fa-solid fa-magnifying-glass"></i></td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td id="accountsection">
+                        <a href="#"><i class="fa-solid fa-user"></i></a>
+                        My Account | <a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="loginbox">
+                <h1>Login</h1>
+                <img id="bookloginimg" src="books.jpg" alt="books">
+                
+                <label for="username"><h3>Email :</h3></label>
+                <input type="email" name="emailused" id="username" placeholder="  Enter e-mail">
+                <label for="password"><h3>Password :</h3></label>
+                <input type="password" id="password" placeholder="   Enter Password">
+                <br>
+                <button onclick="store_data">Login</button>
+                <a href="#" id="forgotpwd">forgot password?</a>
+                <a href="register.html">New user <br>
+                Register here..</a>
+            </div> 
+    
+        </div>
+        <br><br><br>
+        <br>
+        
+    </main>
+    <footer>
+        <div class="foot">
+            <p>Copyright &copy All Rights are Reserved to RADHIKA JINDAL</p>
+        </div>
+    </footer>
+</body>
+</html>
